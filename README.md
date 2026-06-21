@@ -32,7 +32,7 @@
 - **IDX_C** : 범위 조건(일자)을 가운데 두면 뒤 컬럼(번호)이 filter로 전락하고
   옵티마이저가 RANGE SCAN을 포기하고 SKIP SCAN으로 우회한다 → **I/O가 약 28배 증가**
 
-> 상세 분석은 [블로그 글](블로그_링크_나중에_추가)에서 다룰것이다.
+> 상세 분석은 [블로그 글](https://soo-archiving.tistory.com/22)에서 다룰것이다.
 
 ### 스크립트
 - [index_column_order_test.sql](index_column_order_test.sql) : 전체 검증 스크립트 (테이블 생성 ~ 실행계획 확인)
